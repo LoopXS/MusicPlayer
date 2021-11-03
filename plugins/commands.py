@@ -76,7 +76,7 @@ You can also use <code>/splay song name</code> to play a song from Jio Saavn or 
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('✨ ꜱᴜᴘᴘᴏʀᴛ ✨', url='https://t.me/DarkPentester'),
+        InlineKeyboardButton('✨ ꜱᴜᴘᴘᴏʀᴛ ✨', url='https://t.me/yousefabaspour'),
     ],
     [
         InlineKeyboardButton('❗️ ʜᴇʟᴘ ❕', callback_data='help'),
@@ -94,7 +94,7 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-        InlineKeyboardButton('✨ ꜱᴜᴘᴘᴏʀᴛ ✨', url='https://t.me/DarkPentester'),
+        InlineKeyboardButton('✨ ꜱᴜᴘᴘᴏʀᴛ ✨', url='https://t.me/yousefabaspour'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
