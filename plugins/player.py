@@ -1024,7 +1024,7 @@ async def yt_play_list(client, m: Message):
                 markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("✨ Support ✨", url='https://t.me/DarkPentester')
+                            InlineKeyboardButton("✨ Support ✨", url='https://t.me/yousefabaspour')
                         ],
                         [
                             InlineKeyboardButton("🔄 Try Again", url=f"https://telegram.me/GetPlaylistBot?start=subinps_{m.from_user.id}")
@@ -1319,7 +1319,7 @@ allcmd = ["play", "player", "splay", f"splay@{U}", f"play@{U}", f"player@{U}"] +
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('✨ ꜱᴜᴘᴘᴏʀᴛ ✨', url='https://t.me/DarkPentester'),
+            InlineKeyboardButton('✨ ꜱᴜᴘᴘᴏʀᴛ ✨', url='https://t.me/yousefabaspour'),
         ],
         [
             InlineKeyboardButton('❗️ ʜᴇʟᴘ ❕', callback_data='help')       
